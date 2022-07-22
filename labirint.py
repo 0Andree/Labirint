@@ -237,6 +237,7 @@ boss = Boss()
 
 debug_message("Start!")
 if not COLLISION: debug_message("Collision is disabled!", "Warning")
+if not ENEMY_COLLISION: debug_message("Collision with enemies is disabled!", "Warning")
 
 bullets_cooldown = 0
 
